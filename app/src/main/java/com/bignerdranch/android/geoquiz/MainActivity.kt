@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.d(TAG, "onDestroy() called")
+        //test1
     }
     private fun updateQuestion() {
         val questionTextResId = questionBank[currentIndex].textResId
