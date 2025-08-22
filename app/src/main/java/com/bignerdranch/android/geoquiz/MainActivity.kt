@@ -77,6 +77,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateQuestion() {
         val questionTextResId = questionBank[currentIndex].textResId
         questionTextView.setText(questionTextResId)
+        //second - another
     }
 
     private fun checkAnswer(userAnswer: Boolean) {
